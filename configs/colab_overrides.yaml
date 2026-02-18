@@ -1,0 +1,21 @@
+# ============================================================
+# Colab T4 GPU Overrides
+#
+# T4 has 16GB VRAM (vs A100's 80GB). These settings reduce
+# memory usage to fit comfortably. Applied on top of the
+# base train_config.yaml.
+# ============================================================
+
+training:
+  batch_size: 2                      # Reduced from 4
+  list_size: 16                      # Reduced from 32
+  gradient_accumulation_steps: 16    # Doubled to keep effective batch ~same
+  mixed_precision: "fp16"            # T4 doesn't support bf16
+  dataloader_num_workers: 2
+
+evaluation:
+  eval_batch_size: 16                # Reduced from 32
+
+checkpointing:
+  save_every_n_steps: 250            # Save more often on Colab (session can die)
+  sync_to_gcs: false                 # Using Google Drive instead

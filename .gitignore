@@ -17,6 +17,9 @@ __pycache__/
 dist/
 build/
 
+# Generated configs (runtime-merged on Colab)
+configs/train_config_colab.yaml
+
 # Environment
 .env
 *.log

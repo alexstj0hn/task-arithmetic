@@ -16,6 +16,7 @@ import logging
 import sys
 from pathlib import Path
 
+import pandas as pd
 import yaml
 
 logging.basicConfig(
@@ -63,15 +64,46 @@ def main():
         assays_to_score = assays_to_score[:n]
         logger.info(f"Smoke test: limiting to {len(assays_to_score)} assays")
 
-    # Check which are already done
+    # Check which are already done (also detect partial checkpoints from interrupted runs)
     output_dir = Path(config["zero_shot"]["output_dir"])
     remaining = []
     for dms_id in assays_to_score:
         output_path = output_dir / f"{dms_id}_zero_shot.csv"
+        partial_path = output_dir / f"{dms_id}_zero_shot.partial.csv"
         if output_path.exists():
             logger.info(f"  {dms_id}: already scored, skipping")
+        elif partial_path.exists():
+            try:
+                n_done = len(pd.read_csv(partial_path))
+            except Exception:
+                n_done = 0
+            logger.info(f"  {dms_id}: partially scored ({n_done} variants), will resume")
+            remaining.append(dms_id)
         else:
             remaining.append(dms_id)
+
+    # Sort smallest-first so short assays complete and get saved before any timeout.
+    # For partially-scored assays, sort by remaining variants (total - already done).
+    def _remaining_count(dms_id):
+        row = reference_df[reference_df["DMS_id"] == dms_id]
+        if row.empty:
+            return 0
+        total = int(row.iloc[0].get("DMS_total_number_mutants", 0) or 0)
+        partial_path = output_dir / f"{dms_id}_zero_shot.partial.csv"
+        if partial_path.exists():
+            try:
+                return max(0, total - len(pd.read_csv(partial_path)))
+            except Exception:
+                pass
+        return total
+
+    remaining.sort(key=_remaining_count)
+    if remaining:
+        logger.info(
+            f"Assay order (smallest remaining first): "
+            + ", ".join(f"{d}({_remaining_count(d)})" for d in remaining[:5])
+            + (" ..." if len(remaining) > 5 else "")
+        )
 
     if not remaining:
         logger.info("All assays already scored. Nothing to do.")

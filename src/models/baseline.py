@@ -227,9 +227,14 @@ def compute_zero_shot_for_assay(
     wildtype_seq: str,
     output_path: Path,
     device: torch.device,
+    checkpoint_every: int = 200,
 ):
     """
     Compute zero-shot scores for one assay and save results.
+
+    Supports resuming from a partial checkpoint if the run was interrupted.
+    Progress is saved to a .partial.csv file every `checkpoint_every` variants.
+    On completion the partial file is removed and the final CSV is written.
 
     Args:
         model: ESM-2 model
@@ -238,26 +243,88 @@ def compute_zero_shot_for_assay(
         wildtype_seq: Wild-type sequence
         output_path: Path to save results CSV
         device: Device
+        checkpoint_every: Save partial checkpoint after this many variants
     """
-    # Load assay
     assay_df = pd.read_csv(assay_csv_path)
+    n_total = len(assay_df)
 
-    # Score variants
-    zero_shot_scores = score_variants_for_assay(
-        model, tokenizer, assay_df, wildtype_seq, device
-    )
+    # Check for a partial checkpoint from a previous interrupted run
+    partial_path = output_path.with_name(output_path.stem + ".partial.csv")
+    start_idx = 0
+    prior_rows = []
+    if partial_path.exists():
+        try:
+            partial_df = pd.read_csv(partial_path)
+            start_idx = len(partial_df)
+            prior_rows = partial_df.to_dict("records")
+            print(f"  Resuming from variant {start_idx}/{n_total}")
+        except Exception as e:
+            print(f"  Warning: could not read partial checkpoint ({e}), starting fresh")
+            start_idx = 0
+            prior_rows = []
 
-    # Add to dataframe
-    result_df = assay_df.copy()
-    result_df["zero_shot_score"] = zero_shot_scores
+    remaining_df = assay_df.iloc[start_idx:].reset_index(drop=True)
 
-    # Save
+    if len(remaining_df) == 0:
+        # All variants already scored but final file was never written
+        result_df = pd.DataFrame(prior_rows)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        result_df.to_csv(output_path, index=False)
+        partial_path.unlink(missing_ok=True)
+        print(f"  Saved zero-shot scores to: {output_path}")
+        return
+
+    # Precompute masked marginals once per protein (only feasible for shorter sequences)
+    use_precompute = len(wildtype_seq) < 1024
+    all_log_probs = None
+    if use_precompute:
+        print(f"  Precomputing masked marginals for {len(wildtype_seq)} positions...")
+        all_log_probs = compute_all_masked_marginals(model, tokenizer, wildtype_seq, device)
+
+    # Score remaining variants, saving a checkpoint every `checkpoint_every` rows
+    new_rows = []
+    for i, (_, row) in enumerate(tqdm(
+        remaining_df.iterrows(),
+        total=n_total,
+        initial=start_idx,
+        desc="Scoring variants",
+    )):
+        mutant_str = row["mutant"]
+        mutations = parse_mutations(mutant_str)
+
+        if use_precompute and all_log_probs is not None:
+            score = 0.0
+            for wt_aa, pos, mut_aa in mutations:
+                token_pos = pos + 1
+                if token_pos >= all_log_probs.shape[0]:
+                    continue
+                wt_token_id = tokenizer.convert_tokens_to_ids(wt_aa)
+                mut_token_id = tokenizer.convert_tokens_to_ids(mut_aa)
+                score += (
+                    all_log_probs[token_pos, mut_token_id].item()
+                    - all_log_probs[token_pos, wt_token_id].item()
+                )
+        else:
+            score = compute_masked_marginal_score(
+                model, tokenizer, wildtype_seq, mutations, device
+            )
+
+        row_dict = row.to_dict()
+        row_dict["zero_shot_score"] = score
+        new_rows.append(row_dict)
+
+        if (i + 1) % checkpoint_every == 0:
+            pd.DataFrame(prior_rows + new_rows).to_csv(partial_path, index=False)
+
+    # All variants scored — write final file and clean up partial
+    result_df = pd.DataFrame(prior_rows + new_rows)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     result_df.to_csv(output_path, index=False)
+    if partial_path.exists():
+        partial_path.unlink()
 
     print(f"  Saved zero-shot scores to: {output_path}")
 
-    # Compute correlation with DMS scores
     from scipy.stats import spearmanr
     rho = spearmanr(result_df["DMS_score"], result_df["zero_shot_score"]).statistic
     print(f"  Spearman correlation: {rho:.4f}")

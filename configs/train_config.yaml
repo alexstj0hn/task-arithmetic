@@ -1,0 +1,158 @@
+# ============================================================
+# Phase 1 Training Configuration
+# ============================================================
+
+# === Experiment Identity ===
+experiment:
+  name: "phase1_property_vectors"
+  seed: 42
+
+# === Paths ===
+paths:
+  data_dir: "data"
+  results_dir: "results"
+  gcs_bucket: "gs://protein-task-vectors"
+
+# === Data ===
+data:
+  proteingym_version: "v1.3"
+  download_url: "https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3/DMS_ProteinGym_substitutions.zip"
+  reference_url: "https://raw.githubusercontent.com/OATML-Markslab/ProteinGym/main/reference_files/DMS_substitutions.csv"
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  splits_dir: "data/splits"
+  min_mutations_per_assay: 10
+  max_sequence_length: 1022          # ESM-2 max (1024 - BOS - EOS)
+  score_normalization: "minmax"      # Normalize to [0,1] per assay
+
+categories:
+  # Map ProteinGym coarse_selection_type to 4 properties
+  primary_map:
+    Stability: "stability"
+    Binding: "binding"
+    Expression: "expression"
+    Activity: "activity"
+  # OrganismalFitness reclassification via keywords
+  organismal_fitness_reclassification:
+    stability_keywords:
+      - "thermostab"
+      - "stability"
+      - "folding"
+      - "melting"
+      - "ddg"
+      - "deltaG"
+    activity_keywords:
+      - "activity"
+      - "catalytic"
+      - "enzyme"
+      - "kcat"
+      - "km"
+      - "fitness"
+      - "function"
+    binding_keywords:
+      - "binding"
+      - "affinity"
+      - "kd"
+      - "ic50"
+      - "interaction"
+    expression_keywords:
+      - "expression"
+      - "abundance"
+      - "fluorescence"
+      - "solubility"
+      - "secretion"
+    default_category: "activity"
+  min_assays_per_category: 8
+
+splits:
+  mmseqs2_identity_threshold: 0.3    # 30% sequence identity
+  mmseqs2_coverage: 0.8
+  mmseqs2_coverage_mode: 0           # Bidirectional
+  test_fraction: 0.2
+  random_seed: 42
+
+# === Model ===
+model:
+  base_model: "facebook/esm2_t33_650M_UR50D"
+  hidden_size: 1280
+  num_layers: 33
+
+# === LoRA ===
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  target_modules: ["query", "key", "value"]
+  bias: "none"
+
+# === Ranking Head ===
+ranking_head:
+  input_dim: 1280
+  hidden_dim: 640
+  dropout: 0.1
+  pooling: "mean"                    # mean | cls
+
+# === Training ===
+training:
+  loss: "listmle"                    # listmle | mse | pairwise_hinge
+  num_epochs: 20
+  batch_size: 4
+  gradient_accumulation_steps: 8     # Effective batch = 32 lists
+  list_size: 32                      # Variants per ListMLE list
+  learning_rate: 1.0e-4
+  weight_decay: 0.01
+  lr_scheduler: "cosine_with_warmup"
+  warmup_ratio: 0.1
+  max_grad_norm: 1.0
+  mixed_precision: "bf16"            # bfloat16 on A100
+  dataloader_num_workers: 4
+  early_stopping_patience: 5         # Epochs without val improvement
+  steps_per_epoch: null              # Auto-computed if null
+
+# === Checkpointing ===
+checkpointing:
+  save_every_n_steps: 500
+  save_every_n_epochs: 1
+  keep_last_n: 3
+  checkpoint_dir: "results/checkpoints"
+  save_best: true
+  best_metric: "spearman_avg"
+  sync_to_gcs: true
+
+# === Logging ===
+logging:
+  wandb_project: "protein-property-vectors"
+  wandb_entity: null                 # Set via WANDB_ENTITY env var
+  log_every_n_steps: 50
+  eval_every_n_steps: 500
+
+# === Zero-Shot Baseline ===
+zero_shot:
+  batch_size: 1
+  output_dir: "results/zero_shot"
+  method: "masked_marginal"
+
+# === Evaluation ===
+evaluation:
+  metrics: ["spearman", "ndcg", "auc", "top_k_recall"]
+  top_k_fraction: 0.1
+  output_dir: "results/phase1_metrics"
+  eval_batch_size: 32
+
+# === Smoke Test Overrides ===
+smoke_test:
+  enabled: false                     # Set true for quick validation
+  assays_per_category: 2
+  max_epochs: 2
+  max_variants_per_assay: 200
+  list_size: 16
+
+# === Task Vectors ===
+task_vectors:
+  output_dir: "results/task_vectors"
+  save_format: "pt"
+
+# === Status / Monitoring ===
+status:
+  status_file: "results/status.json"
+  slack_webhook: null                # Optional: set for notifications

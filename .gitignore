@@ -1,0 +1,27 @@
+# Data (large, downloaded on VM)
+data/raw/
+data/splits/*.fasta
+data/splits/cluster_results*
+
+# Results (generated on VM, synced via GCS)
+results/checkpoints/
+results/zero_shot/
+results/task_vectors/
+results/phase1_metrics/
+results/status.json
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+*.log
+wandb/
+
+# IDE
+.vscode/
+.idea/

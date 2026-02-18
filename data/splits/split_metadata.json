@@ -1,0 +1,18 @@
+{
+  "mmseqs2_identity_threshold": 0.3,
+  "test_fraction": 0.2,
+  "random_seed": 42,
+  "validation": {
+    "valid": false,
+    "train_assays": 174,
+    "test_assays": 43,
+    "train_proteins": 152,
+    "test_proteins": 36,
+    "train_clusters": 139,
+    "test_clusters": 35,
+    "cluster_overlap": [
+      "CP2C9_HUMAN",
+      "PTEN_HUMAN"
+    ]
+  }
+}

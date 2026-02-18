@@ -1,0 +1,2306 @@
+{
+  "stability": [
+    "A4_HUMAN_Seuma_2022",
+    "A4GRB6_PSEAI_Chen_2020",
+    "AACC1_PSEAI_Dandage_2018",
+    "AMFR_HUMAN_Tsuboyama_2023_4G3O",
+    "ARGR_ECOLI_Tsuboyama_2023_1AOY",
+    "BBC1_YEAST_Tsuboyama_2023_1TG0",
+    "BCHB_CHLTE_Tsuboyama_2023_2KRU",
+    "BLAT_ECOLX_Deng_2012",
+    "CATR_CHLRE_Tsuboyama_2023_2AMI",
+    "CBPA2_HUMAN_Tsuboyama_2023_1O6X",
+    "CBX4_HUMAN_Tsuboyama_2023_2K28",
+    "CSN4_MOUSE_Tsuboyama_2023_1UFM",
+    "CUE1_YEAST_Tsuboyama_2023_2MYX",
+    "DN7A_SACS2_Tsuboyama_2023_1JIC",
+    "DNJA1_HUMAN_Tsuboyama_2023_2LO1",
+    "DOCK1_MOUSE_Tsuboyama_2023_2M0Y",
+    "EPHB2_HUMAN_Tsuboyama_2023_1F0M",
+    "ESTA_BACSU_Nutschel_2020",
+    "FECA_ECOLI_Tsuboyama_2023_2D1U",
+    "FKBP3_HUMAN_Tsuboyama_2023_2KFV",
+    "HCP_LAMBD_Tsuboyama_2023_2L6Q",
+    "HECD1_HUMAN_Tsuboyama_2023_3DKM",
+    "ILF3_HUMAN_Tsuboyama_2023_2L33",
+    "ISDH_STAAW_Tsuboyama_2023_2LHR",
+    "MAFG_MOUSE_Tsuboyama_2023_1K1V",
+    "MBD11_ARATH_Tsuboyama_2023_6ACV",
+    "MYO3_YEAST_Tsuboyama_2023_2BTT",
+    "NKX31_HUMAN_Tsuboyama_2023_2L9R",
+    "NUSA_ECOLI_Tsuboyama_2023_1WCL",
+    "NUSG_MYCTU_Tsuboyama_2023_2MI6",
+    "OBSCN_HUMAN_Tsuboyama_2023_1V1C",
+    "ODP2_GEOSE_Tsuboyama_2023_1W4G",
+    "OTU7A_HUMAN_Tsuboyama_2023_2L2D",
+    "PIN1_HUMAN_Tsuboyama_2023_1I6C",
+    "PITX2_HUMAN_Tsuboyama_2023_2L7M",
+    "PKN1_HUMAN_Tsuboyama_2023_1URF",
+    "POLG_PESV_Tsuboyama_2023_2MXD",
+    "PR40A_HUMAN_Tsuboyama_2023_1UZC",
+    "PSAE_PICP2_Tsuboyama_2023_1PSE",
+    "RAD_ANTMA_Tsuboyama_2023_2CJJ",
+    "RBP1_HUMAN_Tsuboyama_2023_2KWH",
+    "RCD1_ARATH_Tsuboyama_2023_5OAO",
+    "RCRO_LAMBD_Tsuboyama_2023_1ORC",
+    "RD23A_HUMAN_Tsuboyama_2023_1IFY",
+    "RFAH_ECOLI_Tsuboyama_2023_2LCL",
+    "RL20_AQUAE_Tsuboyama_2023_1GYZ",
+    "RPC1_BP434_Tsuboyama_2023_1R69",
+    "RS15_GEOSE_Tsuboyama_2023_1A32",
+    "SAV1_MOUSE_Tsuboyama_2023_2YSB",
+    "SBI_STAAM_Tsuboyama_2023_2JVG",
+    "SCIN_STAAR_Tsuboyama_2023_2QFF",
+    "SDA_BACSU_Tsuboyama_2023_1PV0",
+    "SOX30_HUMAN_Tsuboyama_2023_7JJK",
+    "SPA_STAAU_Tsuboyama_2023_1LP1",
+    "SPG2_STRSG_Tsuboyama_2023_5UBS",
+    "SPTN1_CHICK_Tsuboyama_2023_1TUD",
+    "SQSTM_MOUSE_Tsuboyama_2023_2RRU",
+    "SR43C_ARATH_Tsuboyama_2023_2N88",
+    "SRBS1_HUMAN_Tsuboyama_2023_2O2W",
+    "TCRG1_MOUSE_Tsuboyama_2023_1E0L",
+    "THO1_YEAST_Tsuboyama_2023_2WQG",
+    "TNKS2_HUMAN_Tsuboyama_2023_5JRT",
+    "UBE4B_HUMAN_Tsuboyama_2023_3L1X",
+    "UBR5_HUMAN_Tsuboyama_2023_1I2T",
+    "VG08_BPP22_Tsuboyama_2023_2GP8",
+    "VILI_CHICK_Tsuboyama_2023_1YU5",
+    "VRPI_BPT7_Tsuboyama_2023_2WNM",
+    "YAIA_ECOLI_Tsuboyama_2023_2KVT",
+    "YNZC_BACSU_Tsuboyama_2023_2JVD"
+  ],
+  "binding": [
+    "ACE2_HUMAN_Chan_2020",
+    "B2L11_HUMAN_Dutta_2010_binding-Mcl-1",
+    "CCR5_HUMAN_Gill_2023",
+    "CD19_HUMAN_Klesmith_2019_FMC_singles",
+    "CP2C9_HUMAN_Amorosi_2021_activity",
+    "DLG4_RAT_McLaughlin_2012",
+    "DYR_ECOLI_Nguyen_2023",
+    "GCN4_YEAST_Staller_2018",
+    "MLAC_ECOLI_MacRae_2023",
+    "NRAM_I33A0_Jiang_2016",
+    "Q53Z42_HUMAN_McShan_2019_binding-TAPBPR",
+    "RAF1_HUMAN_Zinkus-Boltz_2019",
+    "RASK_HUMAN_Weng_2022_binding-DARPin_K55",
+    "SPG1_STRSG_Olson_2014",
+    "SPG1_STRSG_Wu_2016",
+    "SPIKE_SARS2_Starr_2020_binding",
+    "YAP1_HUMAN_Araya_2012"
+  ],
+  "expression": [
+    "CP2C9_HUMAN_Amorosi_2021_abundance",
+    "ERBB2_HUMAN_Elazar_2016",
+    "GLPA_HUMAN_Elazar_2016",
+    "HXK4_HUMAN_Gersing_2023_abundance",
+    "KCNE1_HUMAN_Muhammad_2023_expression",
+    "KCNJ2_MOUSE_Coyote-Maestas_2022_surface",
+    "LYAM1_HUMAN_Elazar_2016",
+    "NUD15_HUMAN_Suiter_2020",
+    "OPSD_HUMAN_Wan_2019",
+    "OXDA_RHOTO_Vanella_2023_expression",
+    "PRKN_HUMAN_Clausen_2023",
+    "PTEN_HUMAN_Matreyek_2021",
+    "Q53Z42_HUMAN_McShan_2019_expression",
+    "RASK_HUMAN_Weng_2022_abundance",
+    "S22A1_HUMAN_Yee_2023_abundance",
+    "SPIKE_SARS2_Starr_2020_expression",
+    "TPMT_HUMAN_Matreyek_2018",
+    "VKOR1_HUMAN_Chiasson_2020_abundance"
+  ],
+  "activity": [
+    "A0A140D2T1_ZIKV_Sourisseau_2019",
+    "A0A192B1T2_9HIV1_Haddox_2018",
+    "A0A1I9GEU1_NEIME_Kennouche_2019",
+    "A0A247D711_LISMN_Stadelmann_2021",
+    "A0A2Z5U3Z0_9INFA_Doud_2016",
+    "A0A2Z5U3Z0_9INFA_Wu_2014",
+    "A4D664_9INFA_Soh_2019",
+    "ADRB2_HUMAN_Jones_2020",
+    "AICDA_HUMAN_Gajula_2014_3cycles",
+    "AMIE_PSEAE_Wrenbeck_2017",
+    "ANCSZ_Hobbs_2022",
+    "BLAT_ECOLX_Firnberg_2014",
+    "BLAT_ECOLX_Jacquier_2013",
+    "BLAT_ECOLX_Stiffler_2015",
+    "BRCA1_HUMAN_Findlay_2018",
+    "BRCA2_HUMAN_Erwood_2022_HEK293T",
+    "C6KNH7_9INFA_Lee_2018",
+    "CALM1_HUMAN_Weile_2017",
+    "CAPSD_AAV2S_Sinai_2021",
+    "CAR11_HUMAN_Meitlis_2020_gof",
+    "CAR11_HUMAN_Meitlis_2020_lof",
+    "CAS9_STRP1_Spencer_2017_positive",
+    "CASP3_HUMAN_Roychowdhury_2020",
+    "CASP7_HUMAN_Roychowdhury_2020",
+    "CBS_HUMAN_Sun_2020",
+    "CCDB_ECOLI_Adkar_2012",
+    "CCDB_ECOLI_Tripathi_2016",
+    "D7PM05_CLYGR_Somermeyer_2022",
+    "DLG4_HUMAN_Faure_2021",
+    "DYR_ECOLI_Thompson_2019",
+    "ENV_HV1B9_DuenasDecamp_2016",
+    "ENV_HV1BR_Haddox_2016",
+    "ENVZ_ECOLI_Ghose_2023",
+    "F7YBW8_MESOW_Ding_2023",
+    "F7YBW8_MESOW_Aakre_2015",
+    "GAL4_YEAST_Kitzman_2015",
+    "GDIA_HUMAN_Silverstein_2021",
+    "GFP_AEQVI_Sarkisyan_2016",
+    "GRB2_HUMAN_Faure_2021",
+    "HEM3_HUMAN_Loggerenberg_2023",
+    "HIS7_YEAST_Pokusaeva_2019",
+    "HMDH_HUMAN_Jiang_2019",
+    "HSP82_YEAST_Cote-Hammarlof_2020_growth-H2O2",
+    "HSP82_YEAST_Flynn_2019",
+    "HSP82_YEAST_Mishra_2016",
+    "HXK4_HUMAN_Gersing_2022_activity",
+    "I6TAH8_I68A0_Doud_2015",
+    "IF1_ECOLI_Kelsic_2016",
+    "KCNE1_HUMAN_Muhammad_2023_function",
+    "KCNH2_HUMAN_Kozek_2020",
+    "KCNJ2_MOUSE_Coyote-Maestas_2022_function",
+    "KKA2_KLEPN_Melnikov_2014",
+    "LGK_LIPST_Klesmith_2015",
+    "MET_HUMAN_Estevam_2023",
+    "MK01_HUMAN_Brenan_2016",
+    "MSH2_HUMAN_Jia_2020",
+    "MTH3_HAEAE_RockahShmuel_2015",
+    "MTHR_HUMAN_Weile_2021",
+    "NCAP_I34A1_Doud_2015",
+    "NPC1_HUMAN_Erwood_2022_HEK293T",
+    "NPC1_HUMAN_Erwood_2022_RPE1",
+    "OTC_HUMAN_Lo_2023",
+    "OXDA_RHOTO_Vanella_2023_activity",
+    "P53_HUMAN_Giacomelli_2018_Null_Etoposide",
+    "P53_HUMAN_Giacomelli_2018_Null_Nutlin",
+    "P53_HUMAN_Giacomelli_2018_WT_Nutlin",
+    "P53_HUMAN_Kotler_2018",
+    "P84126_THETH_Chan_2017",
+    "PA_I34A1_Wu_2015",
+    "PABP_YEAST_Melamed_2013",
+    "PAI1_HUMAN_Huttinger_2021",
+    "PHOT_CHLRE_Chen_2023",
+    "POLG_CXB3N_Mattenberger_2021",
+    "POLG_DEN26_Suphatrakul_2023",
+    "POLG_HCVJF_Qi_2014",
+    "PPARG_HUMAN_Majithia_2016",
+    "PPM1D_HUMAN_Miller_2022",
+    "PTEN_HUMAN_Mighell_2018",
+    "Q2N0S5_9HIV1_Haddox_2018",
+    "Q59976_STRSQ_Romero_2015",
+    "Q6WV12_9MAXI_Somermeyer_2022",
+    "Q837P4_ENTFA_Meier_2023",
+    "Q837P5_ENTFA_Meier_2023",
+    "Q8WTC7_9CNID_Somermeyer_2022",
+    "R1AB_SARS2_Flynn_2022",
+    "RASH_HUMAN_Bandaru_2017",
+    "RDRP_I33A0_Li_2023",
+    "REV_HV1H2_Fernandes_2016",
+    "RL40A_YEAST_Mavor_2016",
+    "RL40A_YEAST_Roscoe_2013",
+    "RL40A_YEAST_Roscoe_2014",
+    "RNC_ECOLI_Weeks_2023",
+    "RPC1_LAMBD_Li_2019_high-expression",
+    "RPC1_LAMBD_Li_2019_low-expression",
+    "S22A1_HUMAN_Yee_2023_activity",
+    "SC6A4_HUMAN_Young_2021",
+    "SCN5A_HUMAN_Glazer_2019",
+    "SERC_HUMAN_Xie_2023",
+    "SHOC2_HUMAN_Kwon_2022",
+    "SRC_HUMAN_Ahler_2019",
+    "SRC_HUMAN_Chakraborty_2023_binding-DAS_25uM",
+    "SRC_HUMAN_Nguyen_2022",
+    "SUMO1_HUMAN_Weile_2017",
+    "SYUA_HUMAN_Newberry_2020",
+    "TADBP_HUMAN_Bolognesi_2019",
+    "TAT_HV1BR_Fernandes_2016",
+    "TPK1_HUMAN_Weile_2017",
+    "TPOR_HUMAN_Bridgford_2020",
+    "TRPC_SACS2_Chan_2017",
+    "TRPC_THEMA_Chan_2017",
+    "UBC9_HUMAN_Weile_2017",
+    "UBE4B_MOUSE_Starita_2013",
+    "VKOR1_HUMAN_Chiasson_2020_activity"
+  ],
+  "excluded": [],
+  "categorization_log": [
+    {
+      "dms_id": "A0A140D2T1_ZIKV_Sourisseau_2019",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "effect",
+      "num_mutants": 9576
+    },
+    {
+      "dms_id": "A0A192B1T2_9HIV1_Haddox_2018",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "fitness",
+      "num_mutants": 12577
+    },
+    {
+      "dms_id": "A0A1I9GEU1_NEIME_Kennouche_2019",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "piliation_log2_ratio",
+      "num_mutants": 922
+    },
+    {
+      "dms_id": "A0A247D711_LISMN_Stadelmann_2021",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "mean_prediction",
+      "num_mutants": 1653
+    },
+    {
+      "dms_id": "A0A2Z5U3Z0_9INFA_Doud_2016",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "transformed_pref",
+      "num_mutants": 10715
+    },
+    {
+      "dms_id": "A0A2Z5U3Z0_9INFA_Wu_2014",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "RF Index",
+      "num_mutants": 2350
+    },
+    {
+      "dms_id": "A4_HUMAN_Seuma_2022",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "nscore",
+      "num_mutants": 14811
+    },
+    {
+      "dms_id": "A4D664_9INFA_Soh_2019",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "effectCCL141",
+      "num_mutants": 14421
+    },
+    {
+      "dms_id": "A4GRB6_PSEAI_Chen_2020",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "stability",
+      "matched_keywords": [
+        "stability"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "0.031ug_mL_MEM_37C",
+      "num_mutants": 5004
+    },
+    {
+      "dms_id": "AACC1_PSEAI_Dandage_2018",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "stability",
+      "matched_keywords": [
+        "stability"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "30C",
+      "num_mutants": 1801
+    },
+    {
+      "dms_id": "ACE2_HUMAN_Chan_2020",
+      "original_type": "Binding",
+      "assigned_category": "binding",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 2223
+    },
+    {
+      "dms_id": "ADRB2_HUMAN_Jones_2020",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "0.625",
+      "num_mutants": 7800
+    },
+    {
+      "dms_id": "AICDA_HUMAN_Gajula_2014_3cycles",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "DMS_score",
+      "num_mutants": 209
+    },
+    {
+      "dms_id": "AMFR_HUMAN_Tsuboyama_2023_4G3O",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2972
+    },
+    {
+      "dms_id": "AMIE_PSEAE_Wrenbeck_2017",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "isobutyramide_normalized_fitness",
+      "num_mutants": 6227
+    },
+    {
+      "dms_id": "ANCSZ_Hobbs_2022",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "DMS_value",
+      "num_mutants": 4670
+    },
+    {
+      "dms_id": "ARGR_ECOLI_Tsuboyama_2023_1AOY",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1287
+    },
+    {
+      "dms_id": "B2L11_HUMAN_Dutta_2010_binding-Mcl-1",
+      "original_type": "Binding",
+      "assigned_category": "binding",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 170
+    },
+    {
+      "dms_id": "BBC1_YEAST_Tsuboyama_2023_1TG0",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2069
+    },
+    {
+      "dms_id": "BCHB_CHLTE_Tsuboyama_2023_2KRU",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1572
+    },
+    {
+      "dms_id": "BLAT_ECOLX_Deng_2012",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "stability",
+      "matched_keywords": [
+        "ddg"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "ddG_stat",
+      "num_mutants": 4996
+    },
+    {
+      "dms_id": "BLAT_ECOLX_Firnberg_2014",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "linear",
+      "num_mutants": 4783
+    },
+    {
+      "dms_id": "BLAT_ECOLX_Jacquier_2013",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "MIC_score",
+      "num_mutants": 989
+    },
+    {
+      "dms_id": "BLAT_ECOLX_Stiffler_2015",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "2500",
+      "num_mutants": 4996
+    },
+    {
+      "dms_id": "BRCA1_HUMAN_Findlay_2018",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "function_score",
+      "num_mutants": 1837
+    },
+    {
+      "dms_id": "BRCA2_HUMAN_Erwood_2022_HEK293T",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness",
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "Function Score",
+      "num_mutants": 265
+    },
+    {
+      "dms_id": "C6KNH7_9INFA_Lee_2018",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "log_fitness_by_syn_mut_fitness",
+      "num_mutants": 10754
+    },
+    {
+      "dms_id": "CALM1_HUMAN_Weile_2017",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "screenscore",
+      "num_mutants": 1813
+    },
+    {
+      "dms_id": "CAPSD_AAV2S_Sinai_2021",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "viral_selection",
+      "num_mutants": 42328
+    },
+    {
+      "dms_id": "CAR11_HUMAN_Meitlis_2020_gof",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "log2_score",
+      "num_mutants": 2374
+    },
+    {
+      "dms_id": "CAR11_HUMAN_Meitlis_2020_lof",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "log2_score",
+      "num_mutants": 2395
+    },
+    {
+      "dms_id": "CAS9_STRP1_Spencer_2017_positive",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "Log2 Fold Change after Positive Selection",
+      "num_mutants": 8117
+    },
+    {
+      "dms_id": "CASP3_HUMAN_Roychowdhury_2020",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "coef",
+      "num_mutants": 1567
+    },
+    {
+      "dms_id": "CASP7_HUMAN_Roychowdhury_2020",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "coef",
+      "num_mutants": 1680
+    },
+    {
+      "dms_id": "CATR_CHLRE_Tsuboyama_2023_2AMI",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1903
+    },
+    {
+      "dms_id": "CBPA2_HUMAN_Tsuboyama_2023_1O6X",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2068
+    },
+    {
+      "dms_id": "CBS_HUMAN_Sun_2020",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 7217
+    },
+    {
+      "dms_id": "CBX4_HUMAN_Tsuboyama_2023_2K28",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2282
+    },
+    {
+      "dms_id": "CCDB_ECOLI_Adkar_2012",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 1176
+    },
+    {
+      "dms_id": "CCDB_ECOLI_Tripathi_2016",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "activity"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 1663
+    },
+    {
+      "dms_id": "CCR5_HUMAN_Gill_2023",
+      "original_type": "Binding",
+      "assigned_category": "binding",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "avg_score",
+      "num_mutants": 6137
+    },
+    {
+      "dms_id": "CD19_HUMAN_Klesmith_2019_FMC_singles",
+      "original_type": "Binding",
+      "assigned_category": "binding",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "Fitness",
+      "num_mutants": 3761
+    },
+    {
+      "dms_id": "CP2C9_HUMAN_Amorosi_2021_abundance",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "abundance_score",
+      "num_mutants": 6370
+    },
+    {
+      "dms_id": "CP2C9_HUMAN_Amorosi_2021_activity",
+      "original_type": "Binding",
+      "assigned_category": "binding",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "activity_score",
+      "num_mutants": 6142
+    },
+    {
+      "dms_id": "CSN4_MOUSE_Tsuboyama_2023_1UFM",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 3295
+    },
+    {
+      "dms_id": "CUE1_YEAST_Tsuboyama_2023_2MYX",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1580
+    },
+    {
+      "dms_id": "D7PM05_CLYGR_Somermeyer_2022",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "replicates_mean_brightness",
+      "num_mutants": 24515
+    },
+    {
+      "dms_id": "DLG4_HUMAN_Faure_2021",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "fitness",
+      "num_mutants": 6976
+    },
+    {
+      "dms_id": "DLG4_RAT_McLaughlin_2012",
+      "original_type": "Binding",
+      "assigned_category": "binding",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "CRIPT",
+      "num_mutants": 1576
+    },
+    {
+      "dms_id": "DN7A_SACS2_Tsuboyama_2023_1JIC",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1008
+    },
+    {
+      "dms_id": "DNJA1_HUMAN_Tsuboyama_2023_2LO1",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2264
+    },
+    {
+      "dms_id": "DOCK1_MOUSE_Tsuboyama_2023_2M0Y",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2915
+    },
+    {
+      "dms_id": "DYR_ECOLI_Nguyen_2023",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "binding",
+      "matched_keywords": [
+        "interaction"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "Avg Growth - WT TYMS",
+      "num_mutants": 2916
+    },
+    {
+      "dms_id": "DYR_ECOLI_Thompson_2019",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "enzyme"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "PlusLon_selection_coefficient",
+      "num_mutants": 2363
+    },
+    {
+      "dms_id": "ENV_HV1B9_DuenasDecamp_2016",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "Fitness_Effect",
+      "num_mutants": 375
+    },
+    {
+      "dms_id": "ENV_HV1BR_Haddox_2016",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 12863
+    },
+    {
+      "dms_id": "ENVZ_ECOLI_Ghose_2023",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "mean_on",
+      "num_mutants": 1121
+    },
+    {
+      "dms_id": "EPHB2_HUMAN_Tsuboyama_2023_1F0M",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1960
+    },
+    {
+      "dms_id": "ERBB2_HUMAN_Elazar_2016",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 326
+    },
+    {
+      "dms_id": "ESTA_BACSU_Nutschel_2020",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "T50",
+      "num_mutants": 2172
+    },
+    {
+      "dms_id": "F7YBW8_MESOW_Ding_2023",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "DMS_score",
+      "num_mutants": 7922
+    },
+    {
+      "dms_id": "F7YBW8_MESOW_Aakre_2015",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "fitness",
+      "num_mutants": 9192
+    },
+    {
+      "dms_id": "FECA_ECOLI_Tsuboyama_2023_2D1U",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1886
+    },
+    {
+      "dms_id": "FKBP3_HUMAN_Tsuboyama_2023_2KFV",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1237
+    },
+    {
+      "dms_id": "GAL4_YEAST_Kitzman_2015",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "SEL_C_64h",
+      "num_mutants": 1195
+    },
+    {
+      "dms_id": "GCN4_YEAST_Staller_2018",
+      "original_type": "Binding",
+      "assigned_category": "binding",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "Induction",
+      "num_mutants": 2638
+    },
+    {
+      "dms_id": "GDIA_HUMAN_Silverstein_2021",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "fitness",
+      "num_mutants": 1154
+    },
+    {
+      "dms_id": "GFP_AEQVI_Sarkisyan_2016",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "mean_medianBrightness_per_aaseq",
+      "num_mutants": 51714
+    },
+    {
+      "dms_id": "GLPA_HUMAN_Elazar_2016",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 245
+    },
+    {
+      "dms_id": "GRB2_HUMAN_Faure_2021",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "fitness",
+      "num_mutants": 63366
+    },
+    {
+      "dms_id": "HCP_LAMBD_Tsuboyama_2023_2L6Q",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1040
+    },
+    {
+      "dms_id": "HECD1_HUMAN_Tsuboyama_2023_3DKM",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 5586
+    },
+    {
+      "dms_id": "HEM3_HUMAN_Loggerenberg_2023",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 5689
+    },
+    {
+      "dms_id": "HIS7_YEAST_Pokusaeva_2019",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "selection",
+      "num_mutants": 496137
+    },
+    {
+      "dms_id": "HMDH_HUMAN_Jiang_2019",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "enzyme",
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 16853
+    },
+    {
+      "dms_id": "HSP82_YEAST_Cote-Hammarlof_2020_growth-H2O2",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 2252
+    },
+    {
+      "dms_id": "HSP82_YEAST_Flynn_2019",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "s (37\u00b0C)",
+      "num_mutants": 13294
+    },
+    {
+      "dms_id": "HSP82_YEAST_Mishra_2016",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "selection_coefficient",
+      "num_mutants": 4323
+    },
+    {
+      "dms_id": "HXK4_HUMAN_Gersing_2022_activity",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "activity",
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 8570
+    },
+    {
+      "dms_id": "HXK4_HUMAN_Gersing_2023_abundance",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 8396
+    },
+    {
+      "dms_id": "I6TAH8_I68A0_Doud_2015",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "log_fitness_by_syn_mut_fitness",
+      "num_mutants": 9462
+    },
+    {
+      "dms_id": "IF1_ECOLI_Kelsic_2016",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "fitness_rich",
+      "num_mutants": 1367
+    },
+    {
+      "dms_id": "ILF3_HUMAN_Tsuboyama_2023_2L33",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1329
+    },
+    {
+      "dms_id": "ISDH_STAAW_Tsuboyama_2023_2LHR",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1944
+    },
+    {
+      "dms_id": "KCNE1_HUMAN_Muhammad_2023_expression",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "TrafScore",
+      "num_mutants": 2339
+    },
+    {
+      "dms_id": "KCNE1_HUMAN_Muhammad_2023_function",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "funcScore",
+      "num_mutants": 2315
+    },
+    {
+      "dms_id": "KCNH2_HUMAN_Kozek_2020",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score.ave",
+      "num_mutants": 200
+    },
+    {
+      "dms_id": "KCNJ2_MOUSE_Coyote-Maestas_2022_function",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "function_score",
+      "num_mutants": 6963
+    },
+    {
+      "dms_id": "KCNJ2_MOUSE_Coyote-Maestas_2022_surface",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "surface_score",
+      "num_mutants": 6917
+    },
+    {
+      "dms_id": "KKA2_KLEPN_Melnikov_2014",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "Kan18_avg",
+      "num_mutants": 4960
+    },
+    {
+      "dms_id": "LGK_LIPST_Klesmith_2015",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "SelectionTwo",
+      "num_mutants": 7890
+    },
+    {
+      "dms_id": "LYAM1_HUMAN_Elazar_2016",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 359
+    },
+    {
+      "dms_id": "MAFG_MOUSE_Tsuboyama_2023_1K1V",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1429
+    },
+    {
+      "dms_id": "MBD11_ARATH_Tsuboyama_2023_6ACV",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2116
+    },
+    {
+      "dms_id": "MET_HUMAN_Estevam_2023",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "IL3_withdrawal_score",
+      "num_mutants": 5393
+    },
+    {
+      "dms_id": "MK01_HUMAN_Brenan_2016",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "DOX_Average",
+      "num_mutants": 6809
+    },
+    {
+      "dms_id": "MLAC_ECOLI_MacRae_2023",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "binding",
+      "matched_keywords": [
+        "interaction"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 4007
+    },
+    {
+      "dms_id": "MSH2_HUMAN_Jia_2020",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "activity",
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "LOF score",
+      "num_mutants": 16749
+    },
+    {
+      "dms_id": "MTH3_HAEAE_RockahShmuel_2015",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "activity"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "Wrel_G17_filtered",
+      "num_mutants": 1777
+    },
+    {
+      "dms_id": "MTHR_HUMAN_Weile_2021",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 12464
+    },
+    {
+      "dms_id": "MYO3_YEAST_Tsuboyama_2023_2BTT",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 3297
+    },
+    {
+      "dms_id": "NCAP_I34A1_Doud_2015",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "log_fitness_by_syn_mut_fitness",
+      "num_mutants": 9462
+    },
+    {
+      "dms_id": "NKX31_HUMAN_Tsuboyama_2023_2L9R",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2482
+    },
+    {
+      "dms_id": "NPC1_HUMAN_Erwood_2022_HEK293T",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "Function Score",
+      "num_mutants": 637
+    },
+    {
+      "dms_id": "NPC1_HUMAN_Erwood_2022_RPE1",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "Function Score",
+      "num_mutants": 63
+    },
+    {
+      "dms_id": "NRAM_I33A0_Jiang_2016",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "binding",
+      "matched_keywords": [
+        "binding"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "Standard Conditions",
+      "num_mutants": 298
+    },
+    {
+      "dms_id": "NUD15_HUMAN_Suiter_2020",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "Final NUDT15 activity Score",
+      "num_mutants": 2844
+    },
+    {
+      "dms_id": "NUSA_ECOLI_Tsuboyama_2023_1WCL",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2028
+    },
+    {
+      "dms_id": "NUSG_MYCTU_Tsuboyama_2023_2MI6",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1380
+    },
+    {
+      "dms_id": "OBSCN_HUMAN_Tsuboyama_2023_1V1C",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 3197
+    },
+    {
+      "dms_id": "ODP2_GEOSE_Tsuboyama_2023_1W4G",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1134
+    },
+    {
+      "dms_id": "OPSD_HUMAN_Wan_2019",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 165
+    },
+    {
+      "dms_id": "OTC_HUMAN_Lo_2023",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "DMS_score",
+      "num_mutants": 1570
+    },
+    {
+      "dms_id": "OTU7A_HUMAN_Tsuboyama_2023_2L2D",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 635
+    },
+    {
+      "dms_id": "OXDA_RHOTO_Vanella_2023_activity",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "activity fitness",
+      "num_mutants": 6396
+    },
+    {
+      "dms_id": "OXDA_RHOTO_Vanella_2023_expression",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "expression fitness",
+      "num_mutants": 6769
+    },
+    {
+      "dms_id": "P53_HUMAN_Giacomelli_2018_Null_Etoposide",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "A549_p53NULL_Etoposide_Z-score",
+      "num_mutants": 7467
+    },
+    {
+      "dms_id": "P53_HUMAN_Giacomelli_2018_Null_Nutlin",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "A549_p53NULL_Nutlin-3_Z-score",
+      "num_mutants": 7467
+    },
+    {
+      "dms_id": "P53_HUMAN_Giacomelli_2018_WT_Nutlin",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "A549_p53WT_Nutlin-3_Z-score",
+      "num_mutants": 7467
+    },
+    {
+      "dms_id": "P53_HUMAN_Kotler_2018",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "RFS_H1299",
+      "num_mutants": 1048
+    },
+    {
+      "dms_id": "P84126_THETH_Chan_2017",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "fitness",
+      "num_mutants": 1519
+    },
+    {
+      "dms_id": "PA_I34A1_Wu_2015",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "RF_index",
+      "num_mutants": 1820
+    },
+    {
+      "dms_id": "PABP_YEAST_Melamed_2013",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "linear",
+      "num_mutants": 37708
+    },
+    {
+      "dms_id": "PAI1_HUMAN_Huttinger_2021",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "log2FoldChange",
+      "num_mutants": 5345
+    },
+    {
+      "dms_id": "PHOT_CHLRE_Chen_2023",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "mean",
+      "num_mutants": 167529
+    },
+    {
+      "dms_id": "PIN1_HUMAN_Tsuboyama_2023_1I6C",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 802
+    },
+    {
+      "dms_id": "PITX2_HUMAN_Tsuboyama_2023_2L7M",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1824
+    },
+    {
+      "dms_id": "PKN1_HUMAN_Tsuboyama_2023_1URF",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1301
+    },
+    {
+      "dms_id": "POLG_CXB3N_Mattenberger_2021",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "log_fitness_by_syn_mut_fitness",
+      "num_mutants": 15711
+    },
+    {
+      "dms_id": "POLG_DEN26_Suphatrakul_2023",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 16897
+    },
+    {
+      "dms_id": "POLG_HCVJF_Qi_2014",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "fitness",
+      "num_mutants": 1630
+    },
+    {
+      "dms_id": "POLG_PESV_Tsuboyama_2023_2MXD",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 5130
+    },
+    {
+      "dms_id": "PPARG_HUMAN_Majithia_2016",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "Experimental function score",
+      "num_mutants": 9576
+    },
+    {
+      "dms_id": "PPM1D_HUMAN_Miller_2022",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "fitness",
+      "num_mutants": 7889
+    },
+    {
+      "dms_id": "PR40A_HUMAN_Tsuboyama_2023_1UZC",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2033
+    },
+    {
+      "dms_id": "PRKN_HUMAN_Clausen_2023",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 8756
+    },
+    {
+      "dms_id": "PSAE_PICP2_Tsuboyama_2023_1PSE",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1579
+    },
+    {
+      "dms_id": "PTEN_HUMAN_Matreyek_2021",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score_total",
+      "num_mutants": 5083
+    },
+    {
+      "dms_id": "PTEN_HUMAN_Mighell_2018",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "Fitness_score",
+      "num_mutants": 7260
+    },
+    {
+      "dms_id": "Q2N0S5_9HIV1_Haddox_2018",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "fitness",
+      "num_mutants": 12729
+    },
+    {
+      "dms_id": "Q53Z42_HUMAN_McShan_2019_binding-TAPBPR",
+      "original_type": "Binding",
+      "assigned_category": "binding",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 3344
+    },
+    {
+      "dms_id": "Q53Z42_HUMAN_McShan_2019_expression",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 3344
+    },
+    {
+      "dms_id": "Q59976_STRSQ_Romero_2015",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "enrichment",
+      "num_mutants": 2999
+    },
+    {
+      "dms_id": "Q6WV12_9MAXI_Somermeyer_2022",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "replicates_mean_brightness",
+      "num_mutants": 31401
+    },
+    {
+      "dms_id": "Q837P4_ENTFA_Meier_2023",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "avg_score",
+      "num_mutants": 697
+    },
+    {
+      "dms_id": "Q837P5_ENTFA_Meier_2023",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "avg_score",
+      "num_mutants": 747
+    },
+    {
+      "dms_id": "Q8WTC7_9CNID_Somermeyer_2022",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "replicates_mean_brightness",
+      "num_mutants": 33510
+    },
+    {
+      "dms_id": "R1AB_SARS2_Flynn_2022",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "average_growth",
+      "num_mutants": 5725
+    },
+    {
+      "dms_id": "RAD_ANTMA_Tsuboyama_2023_2CJJ",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 912
+    },
+    {
+      "dms_id": "RAF1_HUMAN_Zinkus-Boltz_2019",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "binding",
+      "matched_keywords": [
+        "binding",
+        "interaction"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 297
+    },
+    {
+      "dms_id": "RASH_HUMAN_Bandaru_2017",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "unregulated",
+      "num_mutants": 3134
+    },
+    {
+      "dms_id": "RASK_HUMAN_Weng_2022_abundance",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "fitness",
+      "num_mutants": 26012
+    },
+    {
+      "dms_id": "RASK_HUMAN_Weng_2022_binding-DARPin_K55",
+      "original_type": "Binding",
+      "assigned_category": "binding",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "fitness",
+      "num_mutants": 24873
+    },
+    {
+      "dms_id": "RBP1_HUMAN_Tsuboyama_2023_2KWH",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1332
+    },
+    {
+      "dms_id": "RCD1_ARATH_Tsuboyama_2023_5OAO",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1261
+    },
+    {
+      "dms_id": "RCRO_LAMBD_Tsuboyama_2023_1ORC",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2278
+    },
+    {
+      "dms_id": "RD23A_HUMAN_Tsuboyama_2023_1IFY",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1019
+    },
+    {
+      "dms_id": "RDRP_I33A0_Li_2023",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness",
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "fitness",
+      "num_mutants": 12003
+    },
+    {
+      "dms_id": "REV_HV1H2_Fernandes_2016",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "sel_coeff_mean",
+      "num_mutants": 2147
+    },
+    {
+      "dms_id": "RFAH_ECOLI_Tsuboyama_2023_2LCL",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1326
+    },
+    {
+      "dms_id": "RL20_AQUAE_Tsuboyama_2023_1GYZ",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1461
+    },
+    {
+      "dms_id": "RL40A_YEAST_Mavor_2016",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "DMSO",
+      "num_mutants": 1253
+    },
+    {
+      "dms_id": "RL40A_YEAST_Roscoe_2013",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "Selection Coefficient",
+      "num_mutants": 1195
+    },
+    {
+      "dms_id": "RL40A_YEAST_Roscoe_2014",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "rel_react",
+      "num_mutants": 1380
+    },
+    {
+      "dms_id": "RNC_ECOLI_Weeks_2023",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "Functional Score Weighted Mean",
+      "num_mutants": 4277
+    },
+    {
+      "dms_id": "RPC1_BP434_Tsuboyama_2023_1R69",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1459
+    },
+    {
+      "dms_id": "RPC1_LAMBD_Li_2019_high-expression",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "H_GFP_mean_scaled",
+      "num_mutants": 351
+    },
+    {
+      "dms_id": "RPC1_LAMBD_Li_2019_low-expression",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "L_GFP_mean_scaled",
+      "num_mutants": 351
+    },
+    {
+      "dms_id": "RS15_GEOSE_Tsuboyama_2023_1A32",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1195
+    },
+    {
+      "dms_id": "S22A1_HUMAN_Yee_2023_abundance",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "GFP_score",
+      "num_mutants": 9803
+    },
+    {
+      "dms_id": "S22A1_HUMAN_Yee_2023_activity",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "SM73_1_score",
+      "num_mutants": 10094
+    },
+    {
+      "dms_id": "SAV1_MOUSE_Tsuboyama_2023_2YSB",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 965
+    },
+    {
+      "dms_id": "SBI_STAAM_Tsuboyama_2023_2JVG",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1025
+    },
+    {
+      "dms_id": "SC6A4_HUMAN_Young_2021",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "avg_MYC",
+      "num_mutants": 11576
+    },
+    {
+      "dms_id": "SCIN_STAAR_Tsuboyama_2023_2QFF",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1212
+    },
+    {
+      "dms_id": "SCN5A_HUMAN_Glazer_2019",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "dms",
+      "num_mutants": 224
+    },
+    {
+      "dms_id": "SDA_BACSU_Tsuboyama_2023_1PV0",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2770
+    },
+    {
+      "dms_id": "SERC_HUMAN_Xie_2023",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 1914
+    },
+    {
+      "dms_id": "SHOC2_HUMAN_Kwon_2022",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "LFC_scaled",
+      "num_mutants": 10972
+    },
+    {
+      "dms_id": "SOX30_HUMAN_Tsuboyama_2023_7JJK",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1010
+    },
+    {
+      "dms_id": "SPA_STAAU_Tsuboyama_2023_1LP1",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2105
+    },
+    {
+      "dms_id": "SPG1_STRSG_Olson_2014",
+      "original_type": "Binding",
+      "assigned_category": "binding",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "lnW",
+      "num_mutants": 536962
+    },
+    {
+      "dms_id": "SPG1_STRSG_Wu_2016",
+      "original_type": "Binding",
+      "assigned_category": "binding",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "Fitness",
+      "num_mutants": 149360
+    },
+    {
+      "dms_id": "SPG2_STRSG_Tsuboyama_2023_5UBS",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1451
+    },
+    {
+      "dms_id": "SPIKE_SARS2_Starr_2020_binding",
+      "original_type": "Binding",
+      "assigned_category": "binding",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "bind_avg",
+      "num_mutants": 3802
+    },
+    {
+      "dms_id": "SPIKE_SARS2_Starr_2020_expression",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "expr_avg",
+      "num_mutants": 3798
+    },
+    {
+      "dms_id": "SPTN1_CHICK_Tsuboyama_2023_1TUD",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 3201
+    },
+    {
+      "dms_id": "SQSTM_MOUSE_Tsuboyama_2023_2RRU",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 707
+    },
+    {
+      "dms_id": "SR43C_ARATH_Tsuboyama_2023_2N88",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1583
+    },
+    {
+      "dms_id": "SRBS1_HUMAN_Tsuboyama_2023_2O2W",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1556
+    },
+    {
+      "dms_id": "SRC_HUMAN_Ahler_2019",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "Activity_Score",
+      "num_mutants": 3372
+    },
+    {
+      "dms_id": "SRC_HUMAN_Chakraborty_2023_binding-DAS_25uM",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "DMS_score",
+      "num_mutants": 3637
+    },
+    {
+      "dms_id": "SRC_HUMAN_Nguyen_2022",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "diffsel",
+      "num_mutants": 3366
+    },
+    {
+      "dms_id": "SUMO1_HUMAN_Weile_2017",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "screenscore",
+      "num_mutants": 1700
+    },
+    {
+      "dms_id": "SYUA_HUMAN_Newberry_2020",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "Fitness Score",
+      "num_mutants": 2497
+    },
+    {
+      "dms_id": "TADBP_HUMAN_Bolognesi_2019",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "toxicity",
+      "num_mutants": 1196
+    },
+    {
+      "dms_id": "TAT_HV1BR_Fernandes_2016",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "sel_coeff_mean",
+      "num_mutants": 1577
+    },
+    {
+      "dms_id": "TCRG1_MOUSE_Tsuboyama_2023_1E0L",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1058
+    },
+    {
+      "dms_id": "THO1_YEAST_Tsuboyama_2023_2WQG",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1279
+    },
+    {
+      "dms_id": "TNKS2_HUMAN_Tsuboyama_2023_5JRT",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1479
+    },
+    {
+      "dms_id": "TPK1_HUMAN_Weile_2017",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "screenscore",
+      "num_mutants": 3181
+    },
+    {
+      "dms_id": "TPMT_HUMAN_Matreyek_2018",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 3648
+    },
+    {
+      "dms_id": "TPOR_HUMAN_Bridgford_2020",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "low",
+      "raw_DMS_phenotype_name": "score",
+      "num_mutants": 562
+    },
+    {
+      "dms_id": "TRPC_SACS2_Chan_2017",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "fitness",
+      "num_mutants": 1519
+    },
+    {
+      "dms_id": "TRPC_THEMA_Chan_2017",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "fitness"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "fitness",
+      "num_mutants": 1519
+    },
+    {
+      "dms_id": "UBC9_HUMAN_Weile_2017",
+      "original_type": "OrganismalFitness",
+      "assigned_category": "activity",
+      "matched_keywords": [
+        "enzyme",
+        "function"
+      ],
+      "confidence": "medium",
+      "raw_DMS_phenotype_name": "screenscore",
+      "num_mutants": 2563
+    },
+    {
+      "dms_id": "UBE4B_HUMAN_Tsuboyama_2023_3L1X",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 3622
+    },
+    {
+      "dms_id": "UBE4B_MOUSE_Starita_2013",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "log2_ratio",
+      "num_mutants": 899
+    },
+    {
+      "dms_id": "UBR5_HUMAN_Tsuboyama_2023_1I2T",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1453
+    },
+    {
+      "dms_id": "VG08_BPP22_Tsuboyama_2023_2GP8",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 723
+    },
+    {
+      "dms_id": "VILI_CHICK_Tsuboyama_2023_1YU5",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2568
+    },
+    {
+      "dms_id": "VKOR1_HUMAN_Chiasson_2020_abundance",
+      "original_type": "Expression",
+      "assigned_category": "expression",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "abundance_score",
+      "num_mutants": 2695
+    },
+    {
+      "dms_id": "VKOR1_HUMAN_Chiasson_2020_activity",
+      "original_type": "Activity",
+      "assigned_category": "activity",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "activity_score",
+      "num_mutants": 697
+    },
+    {
+      "dms_id": "VRPI_BPT7_Tsuboyama_2023_2WNM",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1047
+    },
+    {
+      "dms_id": "YAIA_ECOLI_Tsuboyama_2023_2KVT",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 1890
+    },
+    {
+      "dms_id": "YAP1_HUMAN_Araya_2012",
+      "original_type": "Binding",
+      "assigned_category": "binding",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "W",
+      "num_mutants": 10075
+    },
+    {
+      "dms_id": "YNZC_BACSU_Tsuboyama_2023_2JVD",
+      "original_type": "Stability",
+      "assigned_category": "stability",
+      "matched_keywords": [],
+      "confidence": "high",
+      "raw_DMS_phenotype_name": "ddG_ML_float",
+      "num_mutants": 2300
+    }
+  ]
+}

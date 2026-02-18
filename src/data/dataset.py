@@ -228,7 +228,7 @@ class PropertyCategoryDataset:
                 - dms_id: str
         """
         # Randomly select an assay
-        assay = np.random.choice(self.assays)
+        assay = self.assays[np.random.randint(len(self.assays))]
 
         # Sample variants
         n = len(assay)
